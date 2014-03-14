@@ -1,0 +1,1 @@
+rsync -avz --delete ~/aur data:/srv/http/eyl/media

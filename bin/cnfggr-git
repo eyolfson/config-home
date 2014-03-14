@@ -1,0 +1,1 @@
+PYTHONPATH=/home/jon/vcs/cnfggr /home/jon/vcs/cnfggr/cnfggr/bin/cnfggr $@

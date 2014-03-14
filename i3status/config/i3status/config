@@ -1,0 +1,26 @@
+general {
+  colors = true
+  interval = 5
+}
+
+order += "ethernet enp5s0"
+order += "disk /"
+order += "load"
+order += "tztime local"
+
+ethernet enp5s0 {
+  format_up = "E: up"
+  format_down = "E: down"
+}
+
+tztime local {
+  format = "%Y-%m-%d %H:%M:%S"
+}
+
+load {
+  format = "%1min"
+}
+
+disk "/" {
+  format = "%avail"
+}

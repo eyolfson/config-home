@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/.virtualenv/site-eyl/bin/activate
+cd ~/vcs/site-eyl
+DJANGO_SETTINGS_MODULE=settings python manage.py $@
