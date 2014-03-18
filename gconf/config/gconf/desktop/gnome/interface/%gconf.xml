@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="monospace_font_name" mtime="1395110539" type="string">
+		<stringvalue>DejaVu Sans Mono 8</stringvalue>
+	</entry>
+</gconf>
